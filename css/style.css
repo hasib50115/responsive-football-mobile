@@ -36,6 +36,7 @@ body{
 }
 .btn{
     transition: transform .4s;
+    margin-top: 30px;
 }
 .btn:hover{
     transform: scale(1.2);
@@ -50,10 +51,12 @@ body{
     font-weight: 500;
     font-size: 16px;
     border: 1px solid #E02C6D;
+    
+}
+.live-button{
     position: relative;
     top: 36px;
     right: 160px;
-    
 }
 .ball{
     width: 256px;
@@ -131,6 +134,40 @@ body{
     height: 300px;
 
 }
+/*-------------------------------
+    feature video styles start
+--------------------------------*/
+.half-area{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    height: 600px;
+}
+.review-section{
+    width: 466px;
+    height: 310px;
+    margin-left: 50px;
+    
+  
+}
+.review-title{
+    font-size: 50px;
+    font-weight: 700px;
+    line-height: 50px;   
+}
+.review-section p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+    margin-top: 50px;
+}
+.feature-video iframe{
+    width: 560;
+    height: 430;
+}
+
 
 
 
@@ -144,7 +181,7 @@ body{
     .container{
         width: 100%;
     }
-    .banner-section, .players, .gallery-images{
+    .banner-section, .players, .gallery-images, .half-area{
         grid-template-columns: repeat(1, 1fr);
     }
     .half-width, .player{
