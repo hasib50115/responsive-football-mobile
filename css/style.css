@@ -167,6 +167,27 @@ body{
     width: 560;
     height: 430;
 }
+/*-------------------------------
+    newsletter styles start
+--------------------------------*/
+.newsletter-area{
+	text-align: center;
+	margin-top: 100px;
+    height: 400px;
+    margin-top: 100px;
+
+}
+.newsletter-area form{
+    margin-top: 100px;
+}
+.newsletter-area form input:first-child{
+	display: inline-block;
+	padding: 14px 130px 14px 15px;
+	outline: none;
+}
+#email{
+    border: 1px solid #E02C6D;
+}
 
 
 
